@@ -1,0 +1,82 @@
+.mdy-container {
+    width: 100%;
+    background: #f8f8f8;
+}
+.container>.mdy-row{
+    max-width: 890px;
+    margin: 24px auto;
+    padding: 32px 40px;
+    background-color: #fff;
+}
+/* 表单 */
+.tab h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.tab label{
+    font-weight: normal;
+}
+.form-control{
+    max-width: 300px;
+    height: 30px;
+    border-radius: 0;
+    border: 1px solid #e5e5e5;
+    resize:none;
+}
+.btn-default{
+    background: #46959d;
+    color: #fff;
+    border-radius: 0;
+}
+
+
+/* 联系我们 */
+.us{
+    position: relative;
+}
+.us h2{
+    font-size: 24px;
+}
+.media{
+    margin-top: 40px;
+    
+}
+.media-left{
+    padding-right: 20px;
+    padding-bottom: 0;
+}
+.media-body h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.media-body p{
+    font-size: 12px;
+}
+
+/*微信公众号*/
+.wx{
+    position: absolute;
+    left: 250px;
+    top: 190px;
+    display: inline-block;
+    text-align: center;
+}
+.wx p{
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+
+/* 地图 */
+.map img{
+    margin-top:40px;
+    width: 100%;
+}
+@media (max-width:992px){
+    .wx{
+        position: static;
+    }
+    .container>.mdy-row {
+        padding: 0;
+    }
+}

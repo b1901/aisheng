@@ -1,0 +1,40 @@
+.mdy-container-1 {
+    width: 100%;
+    background: #f8f8f8;
+    margin: 0;
+    padding: 20px 0;
+}
+.mdy-container {
+    max-width: 890px;
+    margin: 0 auto;
+    background: #ffffff;
+    color: #5a5a5a;
+}
+.mdy-container>h2 {
+    margin: 0;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.mdy-row {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 45px;
+}
+.intr-tit h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.intr-img {
+    max-width: 800px;
+    overflow: hidden;
+}
+.intr-img img {
+    display: block;
+    width: 100%;
+}
+.intr-text {
+    line-height: 25px;
+    margin: 20px 0;
+}

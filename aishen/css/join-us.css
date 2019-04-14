@@ -1,0 +1,54 @@
+.container-fluid {
+    background: #f8f8f8;
+}
+.container {
+    max-width: 890px;
+    color: #5a5a5a;
+}
+.container>h2 {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.row {
+    background: #ffffff;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+}
+.join-tit h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.recruit {
+    position: relative;
+}
+.recruit h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+.recruit .recruit-tit {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1e5ea;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+.recruit-text dt {
+    font-size: 14px;
+    font-weight: bold;
+}
+.recruit-text dd {
+    font-size: 12px;
+    line-height: 25px;
+}
+.btn-info {
+    position: absolute;
+    right: 25px;
+    bottom: -10px;
+}
+@media (max-width: 768px) {
+    .btn-info {
+        bottom: -30px;
+    }
+}
